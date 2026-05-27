@@ -1,0 +1,45 @@
+
+
+windows fucntions # 
+aggrigate cunctions #
+joins #
+
+vectorization # 
+upsteam and down steam 
+ 
+SQL#  windows fucntions # 
+aggrigate cunctions #
+joins #
+
+#optimization techniques #-> particianing , buckeing , mapjoing , vectorizaion  
+
+# pyspark # 
+
+what is the diff  RDD ( resulencec distirbuted dataset ) , data frame , data with metadeta
+(data without meta is  RDD)
+ RDD and Data frame is immutable 
+
+# what is the optimization  techniques -> particianing this in 2 types 
+
+ 1.colence  -> it used to decreasing the file sytem and used to  avoid  shuffling 
+ 2.Repartician -> its used to incerase and decrease the file system this is not avoid  shuffuling 
+ 3.Broadcast joining ->  techniques its is joining with  big table to samll table 
+ 4.cache and  persistce ->it will take temporary memory size if we have take  multiple actions , 
+ if you want to have  multiple actions  that time we need to persisance 
+ 
+  
+what are the types of transformation # 
+1.narrow  transformation -> one to one  exam # map, filter, union, withColumn	❌ No	Fast, efficient
+
+2.wide transformation -> many to one   # groupByKey, reduceByKey, join, distinct	✅ Yes	Slower, resource-intensive
+
+3. Actions ->untill and unless if not triggering the action  data is not moving form  logically to physicaly 
+
+
+python#
+
+1.what is list ->
+2.what is touple->
+3.what is set->
+4.what is main method ->
+5.what is dictionary ->
